@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - IEEE SMVITM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <header class="topbar">
+    <div class="topbar-container">
+      <div class="logo">
+        
+        <span>IEEE SMVITM Student Branch</span>
+      </div>
+      <nav class="nav-right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="login.html" class="login-btn active">Login →</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Login Section -->
+  <section class="login-page">
+    <div class="login-card">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required>
+        </div>
+
+        <a href="#" class="forgot">Forgot Password?</a>
+
+        <button type="submit" class="btn-primary">Login</button>
+        <p id="error-msg" style="color:red; margin-top:10px;"></p>
+      </form>
+
+      <div class="divider"><span>OR</span></div>
+
+      <p>If you don't have an account, <a href="#">create one here</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 IEEE Student Branch, SMVITM.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
